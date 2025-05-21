@@ -1,0 +1,34 @@
+# Private
+.env
+.env.*
+app/config/private/
+
+# Logs
+logs/
+
+# Celery
+celerybeat-schedule.db
+
+# Python
+venv/
+
+# Svelte
+svelte/node_modules/
+
+# Pytest
+.pytest_cache/
+htmlcov/
+
+# TRASH
+
+# Editors
+.idea/
+
+# Mac/OSX
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
