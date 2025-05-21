@@ -77,8 +77,6 @@ async def chat_ws(websocket: WebSocket, chat_id: int, user_id: int, session: Asy
                         if len(msg.read_by) == 1:
                             msg.is_read = True
 
-                        print('dddddddd')
-                        print(msg)
                         await session.commit()
 
                         # Уведомляем отправителя
