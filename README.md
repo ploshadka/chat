@@ -1,4 +1,4 @@
-# FastAPI + Docker
+# FastAPI (websocket) + Docker + Svelte 
 
 ## Быстрый запуск (без объяснений)
 
